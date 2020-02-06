@@ -1,0 +1,10 @@
+.footer{
+  background: rgb(30,30,30);
+  background-size: cover;
+  height: 200px;
+}
+
+.footer > p{
+  text-align: center;
+  color: rgb(110,110,110);
+}

@@ -1,0 +1,16 @@
+.card-instruction{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-instruction i{
+  padding: 20px;
+}
+
+.card-instruction p{
+  padding: 0 40px;
+  opacity: 0.6;
+  font-weight: lighter;
+}

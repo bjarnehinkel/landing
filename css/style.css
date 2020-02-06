@@ -1,0 +1,81 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.socials{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: auto;
+  font-size: 40px;
+}
+
+#insta:hover{
+  color: #E94862
+}
+
+#twitter:hover{
+  color: #3CABED
+}
+
+#facebook:hover{
+  color: #1675EF
+}
+.socials *{
+  color: #69DE89;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.icon-center{
+  font-size: 60px;
+  color: #69DE89;
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+  margin: auto;
+}
+
+.banner .container{
+  color: white;
+}
+
+.banner .container p{
+  color: rgb(140,140,140);
+  font-size: 25px;
+  text-align: left;
+}
+
+.banner .container h1{
+  text-align: left;
+}
+
